@@ -1,3 +1,6 @@
+import { config } from "dotenv";
+config();
+
 import { Hono } from "hono";
 import entries from "./routes/entries";
 
